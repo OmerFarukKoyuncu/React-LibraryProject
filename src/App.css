@@ -1,0 +1,17 @@
+.nav-link {
+  color: antiquewhite;
+  margin: 2px;
+  text-decoration: none;
+}
+
+.nav-link-active {
+  color: aqua;
+  margin: 2px;
+  text-decoration: none;
+}
+
+.list-link {
+  color: dodgerblue;
+  margin: 2px;
+  text-decoration: none;
+}
