@@ -13,14 +13,8 @@ If you are developing a production application, we recommend using TypeScript an
 
 ![Admin Arayüzü](src/screenshots/Admin.PNG)
 
-////////////////
-
 ![Giriş Arayüzü](src/screenshots/Login.PNG)
 
-////////////////
-
 ![Güncelleme Arayüzü](src/screenshots/Update.PNG)
-
-////////////////
 
 ![Kullanıcı Arayüzü](src/screenshots/User.PNG)
