@@ -204,13 +204,15 @@ const BookUpdate = () => {
             Kitabı Güncelle
           </Button>
           <Button
+            className="nav-link"
             type="button"
             variant="contained"
+            to="/"
             sx={{ m: 2, p: 2, backgroundColor: grey[500], width: "30%" }}
+            component={Link}
+            replace
           >
-            <Link to="/" replace className="nav-link">
-              Listeye Dön
-            </Link>
+            Listeye Dön
           </Button>
         </Box>
       </Box>

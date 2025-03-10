@@ -1,8 +1,10 @@
-import { Box } from "@mui/material";
+import { Box, Button } from "@mui/material";
 import React, { useEffect, useReducer, useState } from "react";
 import CardWithDescription from "../components/Cards/CardWithDescription";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { bookInitialState, bookreduser } from "../redusers/bookReduser";
+import { grey } from "@mui/material/colors";
+grey;
 
 const BookDetail = () => {
   const { bookId } = useParams();
@@ -39,6 +41,17 @@ const BookDetail = () => {
       }}
     >
       {book && <CardWithDescription data={book} />}
+      <Button
+        className="nav-link"
+        type="button"
+        variant="contained"
+        to="/"
+        sx={{ m: 2, p: 2, backgroundColor: grey[500], width: "30%" }}
+        component={Link}
+        replace
+      >
+        Listeye Dön
+      </Button>
     </Box>
   );
 };
